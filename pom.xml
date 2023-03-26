@@ -25,6 +25,7 @@
     <sonar.tests>src/test/java</sonar.tests>
     <sonar.projectKey>sonar-test</sonar.projectKey>
     <sonar.host.url>http://localhost:9000</sonar.host.url>
+    <sonar.source>sonar.branch=${branch}</sonar.source>
 </properties>
 	
 	<profiles>
